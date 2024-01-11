@@ -4,7 +4,7 @@ import Logo from "../Logo/Logo";
 
 const Header = ({ children }) => {
   return (
-    <div>
+    <div className="px-2">
       <MainNav></MainNav>
       <Logo></Logo>
       {children}
