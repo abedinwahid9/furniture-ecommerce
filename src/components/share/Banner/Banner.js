@@ -7,7 +7,7 @@ const Banner = ({ src }) => {
         src={src}
         alt="ads"
         width={0}
-        style={{ width: "100%", height: "400px" }}
+        className="w-full md:h-[400px] h-[200px]"
       />
     </div>
   );
