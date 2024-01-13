@@ -5,7 +5,7 @@ import cover1 from "@/asset/cover1.jpg";
 const Whoarewe = () => {
   return (
     <div className="md:px-10 px-5 py-6">
-      <Title title="WHO ARE WE" />
+      <Title title="WHO ARE WE" width="w-[48%] md:w-[25%]" />
       <Image
         src={cover1}
         alt="cover"
@@ -20,7 +20,7 @@ const Whoarewe = () => {
         essentially unchanged. It was popularised in the 1960s with the release
         of Letraset sheets containing Lorem Ipsum passages, and more recently
         with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        of Lorem Ipsum.c
       </p>
     </div>
   );
