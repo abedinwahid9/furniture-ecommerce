@@ -1,9 +1,9 @@
-const Title = ({ title, width }) => {
+const Title = ({ title }) => {
   return (
-    <div className="   ">
+    <div className="absolute  left-10 ">
       <h2
         style={{ wordSpacing: "1px", letterSpacing: "1px" }}
-        className={`uppercase flex flex-1   flex-col lg:text-3xl text-end text-xl ${width}`}
+        className="uppercase flex flex-1   flex-col lg:text-3xl text-end text-xl "
       >
         {title}
         <div className="flex flex-col items-end">

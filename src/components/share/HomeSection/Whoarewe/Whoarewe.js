@@ -4,12 +4,12 @@ import cover1 from "@/asset/cover1.jpg";
 
 const Whoarewe = () => {
   return (
-    <div className="md:px-10 px-5 py-6">
+    <div className=" py-10 px-10 relative">
       <Title title="WHO ARE WE" width="w-[48%] md:w-[25%]" />
       <Image
         src={cover1}
         alt="cover"
-        className="my-5 w-[100%] md:h-[300px] h-[150px]"
+        className="my-5 w-[100%] md:h-[300px] h-[150px] mt-14"
       />
       <p className="text-center p-5 text-sm text-secondaryColor">
         Lorem Ipsum is simply dummy text of the printing and typesetting
